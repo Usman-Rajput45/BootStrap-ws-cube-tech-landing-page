@@ -1,0 +1,150 @@
+*{
+     font-family: "Nunito", sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
+
+/* Header */
+@media only screen and (min-width: 200px) and (max-width:575px) {
+     .btn-outer{
+       position: fixed;
+       bottom: 0px;
+       width: 100%;
+       background: white;
+       padding: 5px 0px;
+       left: 0px;
+       justify-content: center !important;
+     }
+     .whatsapp-btn, .btn-outer {
+          padding: 7px 15px;
+          font-size: 14px;
+     }
+
+     .bannerContent h1{
+          font-size: 28px !important;
+          font-weight: 700 !important;
+          text-align: center;
+          line-height: 35px;
+     }
+
+     .bannerContent br{
+          display: none;
+     }
+
+     .bannerContent p, .bannerContent ul li{
+          font-size: 14px! important;
+     }
+
+     .bannerContentBtn {
+          flex-direction: column;
+     }
+
+     .bannerContentBtn button{
+         width: 100% !important;
+     }
+     .bannerForm{
+     padding: 20px;
+}
+.hightlight-section h2{
+     
+     font-size: 28px;
+     
+}
+
+
+
+}
+
+.call{
+     background: linear-gradient(to right, #0ACEFE, #2699FB);
+     color: white;
+
+}
+
+/* Section No 01 */
+.bannerContent h1{
+font-size: 52px;
+font-weight: 700;
+}
+
+.bannerContent h1 span {
+     color: #2699FB;
+  
+}
+
+.bannerContent p{
+     font-size: 22px
+}
+
+.bannerContent ul{
+     list-style: none;
+}
+
+.bannerContent ul li{
+     font-size: 22px
+}
+
+.bannerContent ul li i {
+     color: #2699FB;
+}
+
+.bannerContentBtn button {
+     width: 50%;
+     padding: 10px 0px;
+     border-radius: 5px;
+}
+
+.bannerContentBtn button:first-child{
+     background: linear-gradient(to right, #0ACEFE, #2699FB);
+     color: white;
+}
+
+.bannerForm{
+     padding: 40px;
+     border-radius: 10px;
+}
+
+.bannerForm h3{
+     font-size: 18px;
+     font-weight: 700;
+} 
+.bannerForm button{
+     width: 100%;
+     padding: 10px 0px;
+     background: linear-gradient(to right, #0ACEFE, #2699FB);
+     border: none;
+     color: white;
+}
+
+.counterSection h2{
+     font-size: 30px;
+     font-weight: 700;
+     color: #0ACEFE;
+}
+
+.hightlight-section{
+     background-color: #F7FAFF;
+}
+
+.hightlight-section h2{
+     color: #0A2134;
+     font-size: 36px;
+     font-weight: 700;
+}
+
+.hightlight-section p {
+     font-size: 18px;
+}
+
+.hightlightItems h4{
+     font-size: 20px;
+     font-weight: 600;
+}
+
+.hightlightItems p {
+     font-size: 15px;
+}
